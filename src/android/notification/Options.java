@@ -405,7 +405,7 @@ public final class Options {
      * If the phone should vibrate.
      */
     private boolean isWithVibration() {
-        return options.optBoolean("vibrate", true);
+        return options.optBoolean("vibrate", false);
     }
 
     /**
